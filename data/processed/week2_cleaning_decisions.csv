@@ -1,0 +1,12 @@
+Issue,Observed,Action,Rationale
+Exact duplicate rows,0,No rows removed,Only fully identical rows are treated as duplicates; repeated order IDs can represent valid line items.
+Column removed: Product Description,"180,519 missing (100.00%)",Removed column,100% missing in the inspected dataset; it provides no usable information for this analysis.
+Column removed: Order Zipcode,"155,679 missing (86.24%)",Removed column,Approximately 86% missing; it is not required for the selected shipping-mode and market analysis.
+Column removed: Customer Email,0 missing (0.00%),Removed column,Direct personal identifier; not required for logistics KPI analysis.
+Column removed: Customer Password,0 missing (0.00%),Removed column,Sensitive credential-like field; not required and should never be part of an analytical output.
+Column removed: Customer Fname,0 missing (0.00%),Removed column,Direct personal identifier; not required for logistics KPI analysis.
+Column removed: Customer Lname,8 missing (0.00%),Removed column,Direct personal identifier; not required for logistics KPI analysis.
+Column removed: Customer Street,0 missing (0.00%),Removed column,Detailed personal location field; not required for the selected task.
+Column removed: Customer Zipcode,3 missing (0.00%),Removed column,"Fine-grained location identifier; not needed for the selected analysis, so no imputation is performed."
+Missing values in required analytical fields,0,No rows removed,The selected KPI calculations need these fields. Optional fields are not blindly imputed.
+Negative actual/scheduled shipping days,0,No rows removed,Elapsed shipping duration cannot be negative; rows are excluded only if this impossible condition exists.

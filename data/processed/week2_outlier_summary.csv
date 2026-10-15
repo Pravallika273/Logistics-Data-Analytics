@@ -1,0 +1,9 @@
+Column,Non-Missing Records,Q1,Q3,IQR,Lower Fence,Upper Fence,Outlier Records,Outlier Percent,Treatment
+Days for shipping (real),180519,2.0,5.0,3.0,-2.5,9.5,0,0.0,"Flagged, not automatically removed; business validation is needed because extreme orders/values may be legitimate."
+Days for shipment (scheduled),180519,2.0,4.0,2.0,-1.0,7.0,0,0.0,"Flagged, not automatically removed; business validation is needed because extreme orders/values may be legitimate."
+Shipping Delay Days,180519,0.0,1.0,1.0,-1.5,2.5,35701,19.776865593095465,"Flagged, not automatically removed; business validation is needed because extreme orders/values may be legitimate."
+Order Item Quantity,180519,1.0,3.0,2.0,-2.0,6.0,0,0.0,"Flagged, not automatically removed; business validation is needed because extreme orders/values may be legitimate."
+Order Item Product Price,180519,50.0,199.9900055,149.9900055,-174.98500825,424.97501375,2048,1.1345066170320022,"Flagged, not automatically removed; business validation is needed because extreme orders/values may be legitimate."
+Order Item Total,180519,104.3799973,247.3999939,143.0199966,-110.14999760000002,461.92998880000005,1943,1.0763409945767481,"Flagged, not automatically removed; business validation is needed because extreme orders/values may be legitimate."
+Sales,180519,119.9800034,299.9500122,179.97000880000002,-149.97500980000007,569.9050254000001,488,0.27033165483965677,"Flagged, not automatically removed; business validation is needed because extreme orders/values may be legitimate."
+Order Profit Per Order,180519,7.0,64.80000305,57.80000305,-79.70000457500001,151.50000762500002,18942,10.493078290927825,"Flagged, not automatically removed; business validation is needed because extreme orders/values may be legitimate."

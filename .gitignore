@@ -27,3 +27,13 @@ data/processed/logistics_analysis_ready.csv
 # OS files
 .DS_Store
 Thumbs.db
+
+# Week 2 generated datasets - retain locally
+data/processed/week2_cleaned_logistics.csv
+data/processed/week2_normalized_features.csv
+
+# Week 2 large generated files and local samples: do not push to GitHub
+data/processed/week2_cleaned_logistics.csv
+data/processed/week2_normalized_features.csv
+data/processed/week2_before_cleaning_sample.csv
+data/processed/week2_after_cleaning_sample.csv

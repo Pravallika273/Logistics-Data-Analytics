@@ -1,0 +1,13 @@
+Metric,Value
+Raw row count,180519
+Raw column count,53
+Exact duplicate rows found,0
+Columns removed,8
+Rows removed for missing required fields,0
+Rows removed for negative shipping durations,0
+Cleaned row count,180519
+Cleaned column count,46
+Remaining exact duplicate rows,0
+Missing cells before cleaning,336209
+Missing cells after cleaning,0
+Normalized numerical features,8

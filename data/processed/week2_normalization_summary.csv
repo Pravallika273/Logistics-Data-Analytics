@@ -1,0 +1,9 @@
+Feature,Original Minimum,Original Maximum,Normalized Minimum,Normalized Maximum,Missing Values Preserved,Method
+Days for shipping (real),0.0,6.0,0.0,1.0,0,Min-Max scaling: (x - min) / (max - min); constant columns map to 0.
+Days for shipment (scheduled),0.0,4.0,0.0,1.0,0,Min-Max scaling: (x - min) / (max - min); constant columns map to 0.
+Shipping Delay Days,-2.0,4.0,0.0,1.0,0,Min-Max scaling: (x - min) / (max - min); constant columns map to 0.
+Order Item Quantity,1.0,5.0,0.0,1.0,0,Min-Max scaling: (x - min) / (max - min); constant columns map to 0.
+Order Item Product Price,9.989999771,1999.98999,0.0,1.0,0,Min-Max scaling: (x - min) / (max - min); constant columns map to 0.
+Order Item Total,7.489999771,1939.98999,0.0,1.0,0,Min-Max scaling: (x - min) / (max - min); constant columns map to 0.
+Sales,9.989999771,1999.98999,0.0,1.0,0,Min-Max scaling: (x - min) / (max - min); constant columns map to 0.
+Order Item Profit Ratio,-2.75,0.5,0.0,1.0,0,Min-Max scaling: (x - min) / (max - min); constant columns map to 0.

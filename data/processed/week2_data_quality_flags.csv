@@ -1,0 +1,5 @@
+Quality Check,Flagged Records,Percent of Cleaned Records,Treatment
+Order Item Quantity <= 0,0,0.0,Flagged for review; not automatically removed because the context may include returns or special transactions.
+Order Item Product Price < 0,0,0.0,Flagged for review; investigate transaction meaning before exclusion.
+Negative shipping duration after cleaning,0,0.0,Should be zero after the validity rule above.
+Shipping date before order date,0,0.0,Flag for investigation; do not silently change source dates.

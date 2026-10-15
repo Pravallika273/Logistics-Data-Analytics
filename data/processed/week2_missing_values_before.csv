@@ -1,0 +1,54 @@
+Column,Missing Count,Missing Percent,Non-Missing Count
+Product Description,180519,100.0,0
+Order Zipcode,155679,86.23967560201419,24840
+Customer Lname,8,0.0044316664727812585,180511
+Customer Zipcode,3,0.001661874927292972,180516
+Benefit per order,0,0.0,180519
+Category Id,0,0.0,180519
+Category Name,0,0.0,180519
+Customer City,0,0.0,180519
+Customer Country,0,0.0,180519
+Customer Email,0,0.0,180519
+Customer Fname,0,0.0,180519
+Customer Id,0,0.0,180519
+Customer Password,0,0.0,180519
+Customer Segment,0,0.0,180519
+Customer State,0,0.0,180519
+Customer Street,0,0.0,180519
+Days for shipment (scheduled),0,0.0,180519
+Days for shipping (real),0,0.0,180519
+Delivery Status,0,0.0,180519
+Department Id,0,0.0,180519
+Department Name,0,0.0,180519
+Late_delivery_risk,0,0.0,180519
+Latitude,0,0.0,180519
+Longitude,0,0.0,180519
+Market,0,0.0,180519
+Order City,0,0.0,180519
+Order Country,0,0.0,180519
+Order Customer Id,0,0.0,180519
+Order Id,0,0.0,180519
+Order Item Cardprod Id,0,0.0,180519
+Order Item Discount,0,0.0,180519
+Order Item Discount Rate,0,0.0,180519
+Order Item Id,0,0.0,180519
+Order Item Product Price,0,0.0,180519
+Order Item Profit Ratio,0,0.0,180519
+Order Item Quantity,0,0.0,180519
+Order Item Total,0,0.0,180519
+Order Profit Per Order,0,0.0,180519
+Order Region,0,0.0,180519
+Order State,0,0.0,180519
+Order Status,0,0.0,180519
+Product Card Id,0,0.0,180519
+Product Category Id,0,0.0,180519
+Product Image,0,0.0,180519
+Product Name,0,0.0,180519
+Product Price,0,0.0,180519
+Product Status,0,0.0,180519
+Sales,0,0.0,180519
+Sales per customer,0,0.0,180519
+Shipping Mode,0,0.0,180519
+Type,0,0.0,180519
+order date (DateOrders),0,0.0,180519
+shipping date (DateOrders),0,0.0,180519
