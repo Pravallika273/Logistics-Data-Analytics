@@ -1,0 +1,16 @@
+Metric,Value,Unit
+Total shipments,5000.0,shipments
+Late shipments,1388.0,shipments
+Early shipments,3570.0,shipments
+Exactly on-schedule shipments,42.0,shipments
+Late shipment rate,27.76,%
+Early shipment rate,71.39999999999999,%
+Exactly on-schedule rate,0.84,%
+Mean actual delivery time,1.668182,days
+Median actual delivery time,1.52,days
+Mean promised delivery time,1.833546,days
+Mean schedule variance,-0.16536399999999998,days
+Mean transportation cost,933.0302300000001,INR
+Median transportation cost,836.085,INR
+Mean shipment distance,737.5841640000001,km
+Mean cost per kilometre,1.4736743577068574,INR/km

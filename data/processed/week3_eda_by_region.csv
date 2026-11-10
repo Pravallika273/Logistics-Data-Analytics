@@ -1,0 +1,6 @@
+region,Shipments,Late_Shipments,Late_Rate_pct,Mean_Actual_Delivery_Days,Median_Actual_Delivery_Days,Mean_Promised_Delivery_Days,Mean_Schedule_Variance_Days,Mean_Transportation_Cost_INR,Median_Transportation_Cost_INR,Mean_Distance_Km,Mean_Cost_per_Km_INR
+Central,772,242,31.347,1.712,1.565,1.844,-0.132,944.445,846.685,744.433,1.269
+East,975,348,35.692,1.738,1.61,1.84,-0.102,953.911,845.79,737.586,1.293
+North,1096,236,21.533,1.612,1.48,1.823,-0.211,898.003,806.895,726.544,1.236
+South,1043,297,28.476,1.674,1.53,1.841,-0.166,946.853,845.33,748.937,1.264
+West,1114,265,23.788,1.626,1.46,1.824,-0.198,928.363,841.45,733.07,1.266

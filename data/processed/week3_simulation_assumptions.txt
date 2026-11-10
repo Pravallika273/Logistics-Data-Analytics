@@ -1,0 +1,52 @@
+WEEK 3 — HYPOTHETICAL LOGISTICS DATASET: SIMULATION NOTES
+====================================================================
+
+IMPORTANT: All records and values are synthetic. They do not represent
+a real logistics company, customer, carrier, shipment or market observation.
+The dataset is designed only to demonstrate exploratory analysis and
+visualization techniques for the Week 3 assignment.
+
+Rows: 5,000
+Columns: 16
+Random seed: 20261104
+Simulated order-date period: 2025-01-01 to 2025-12-31
+
+GENERATION ASSUMPTIONS
+1. Shipment IDs are unique identifiers generated sequentially.
+2. Regions and shipping modes are assigned using fixed probabilities.
+3. Distance, weight and volume are generated from bounded, right-skewed distributions.
+4. Dispatch delay, handling time and disruption are simulated operational factors.
+5. Nominal transit time is distance divided by a mode-specific assumed speed.
+6. Promised delivery time is nominal transit time plus a mode-specific SLA buffer.
+7. Actual delivery time includes dispatch delay, handling time, disruption,
+   regional/peak-period adjustments and random variation.
+8. Schedule variance = actual delivery days - promised delivery days.
+9. Late delivery = 1 when schedule variance is greater than zero; else 0.
+10. Transportation cost is simulated from distance, weight, volume, handling,
+    shipping-mode multiplier, regional factor and a fuel-surcharge component.
+11. October–December include a small assumed peak-period pressure adjustment.
+
+SIMULATED CATEGORY COUNTS
+Shipping mode:
+  - Economy: 1,267
+  - Express: 1,252
+  - Standard: 2,481
+Regions:
+  - Central: 772
+  - East: 975
+  - North: 1,096
+  - South: 1,043
+  - West: 1,114
+
+INITIAL GENERATED OUTCOME SUMMARY (DESCRIPTIVE ONLY)
+Late-shipment rate: 27.76%
+Mean actual delivery duration: 1.67 days
+Median actual delivery duration: 1.52 days
+Mean transportation cost: INR 933.03
+
+INTERPRETATION LIMITATIONS
+- These results describe the simulation assumptions, not real operations.
+- Relationships may partly reflect the formulas used to generate the data.
+- Correlation does not establish real-world causation.
+- Any recommendations must be labelled as illustrative and require validation
+  using actual company shipment, carrier, route and cost data.

@@ -1,0 +1,31 @@
+WEEK 3 - DEEP-DIVE ANALYTICAL FINDINGS
+=================================================================
+
+DATA QUALITY
+Records analysed: 5,000
+Missing cells: 0
+Duplicate shipment IDs: 0
+Late-flag mismatches: 0
+
+SERVICE MODE
+Highest late rate: Express (40.65%)
+Fastest mean delivery: Express (1.35 days)
+
+REGIONAL PERFORMANCE
+Highest late rate: East (35.69%)
+Lowest late rate: North (21.53%)
+
+SEASONAL COMPARISON
+Q4 late rate: 37.36%
+January-September late rate: 24.56%
+Q4 difference: +12.80 percentage points
+
+COST EFFICIENCY
+Mean shipment-level cost per km: INR 1.474
+Weighted cost per km: INR 1.265
+
+INTERPRETATION LIMITATIONS
+- The dataset is synthetic.
+- Some relationships are built into its generation formulas.
+- Correlation does not establish causation.
+- Recommendations require validation using real operational data.

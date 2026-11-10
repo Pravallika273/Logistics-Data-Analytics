@@ -1,0 +1,11 @@
+Validation Check,Result
+Total records,5000.0
+Total columns,16.0
+Missing cells,0.0
+Exact duplicate rows,0.0
+Duplicate shipment IDs,0.0
+Invalid dates,0.0
+Late-flag mismatches,0.0
+Maximum schedule variance reconciliation difference,8.326672684688674e-16
+Negative distances,0.0
+Negative transportation costs,0.0

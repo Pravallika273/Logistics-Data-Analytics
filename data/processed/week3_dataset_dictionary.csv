@@ -1,0 +1,17 @@
+column,definition,type_or_unit
+shipment_id,Unique synthetic shipment identifier,Identifier
+order_date,Synthetic order date between 2025-01-01 and 2025-12-31,Date
+region,"Synthetic operating region: North, South, East, West or Central",Categorical
+shipping_mode,"Synthetic service mode: Economy, Standard or Express",Categorical
+distance_km,Simulated shipment distance in kilometres,Numerical; km
+shipment_weight_kg,Simulated shipment weight in kilograms,Numerical; kg
+shipment_volume_m3,Simulated shipment volume in cubic metres,Numerical; m3
+dispatch_delay_hours,Simulated elapsed dispatch delay in hours,Numerical; hours
+disruption_index,Synthetic disruption intensity between 0 and 1,Index; unitless
+handling_time_hours,Simulated warehouse/handling time in hours,Numerical; hours
+promised_delivery_days,Simulated promised delivery duration in days,Numerical; days
+actual_delivery_days,Simulated actual delivery duration in days,Numerical; days
+schedule_variance_days,Actual delivery days minus promised delivery days,Derived; days
+late_delivery,1 when schedule variance is positive; otherwise 0,Binary target
+fuel_surcharge_inr,Simulated fuel surcharge component in INR,Numerical; INR
+transportation_cost_inr,"Simulated total transportation cost in INR, including fuel surcharge",Numerical; INR

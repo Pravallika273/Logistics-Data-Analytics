@@ -1,0 +1,12 @@
+Variable,Q1,Q3,IQR,Lower_Fence,Upper_Fence,Flagged_Records,Flagged_Percent,Treatment
+distance_km,414.2175,943.7675,529.55,-380.1075,1738.0925,240,4.8,Review; do not automatically remove
+shipment_weight_kg,20.605,58.2625,37.6575,-35.8812,114.7488,317,6.34,Review; do not automatically remove
+shipment_volume_m3,0.168,0.3492,0.1812,-0.1039,0.6211,242,4.84,Review; do not automatically remove
+dispatch_delay_hours,1.94,5.3325,3.3925,-3.1487,10.4212,199,3.98,Review; do not automatically remove
+disruption_index,0.1569,0.3845,0.2276,-0.1845,0.726,41,0.82,Review; do not automatically remove
+handling_time_hours,1.94,2.95,1.01,0.425,4.465,127,2.54,Review; do not automatically remove
+promised_delivery_days,1.32,2.16,0.84,0.06,3.42,227,4.54,Review; do not automatically remove
+actual_delivery_days,1.15,2.01,0.86,-0.14,3.3,200,4.0,Review; do not automatically remove
+schedule_variance_days,-0.37,0.03,0.4,-0.97,0.63,39,0.78,Review; do not automatically remove
+fuel_surcharge_inr,76.05,153.03,76.98,-39.42,268.5,197,3.94,Review; do not automatically remove
+transportation_cost_inr,624.335,1135.9725,511.6375,-143.1213,1903.4288,162,3.24,Review; do not automatically remove

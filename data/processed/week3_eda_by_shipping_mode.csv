@@ -1,0 +1,4 @@
+shipping_mode,Shipments,Late_Shipments,Late_Rate_pct,Mean_Actual_Delivery_Days,Median_Actual_Delivery_Days,Mean_Promised_Delivery_Days,Mean_Schedule_Variance_Days,Mean_Transportation_Cost_INR,Median_Transportation_Cost_INR,Mean_Distance_Km,Mean_Cost_per_Km_INR
+Economy,1267,229,18.074,2.024,1.84,2.293,-0.269,816.008,736.66,734.805,1.111
+Express,1252,509,40.655,1.351,1.26,1.407,-0.055,1112.031,987.86,726.439,1.531
+Standard,2481,650,26.199,1.646,1.52,1.814,-0.168,902.461,820.4,744.628,1.212

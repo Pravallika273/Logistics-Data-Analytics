@@ -1,0 +1,3 @@
+period_group,Shipments,Late_Shipments,Late_Rate_pct,Early_Rate_pct,On_Schedule_Rate_pct,Mean_Actual_Delivery_Days,Median_Actual_Delivery_Days,Mean_Promised_Delivery_Days,Mean_Schedule_Variance_Days,Mean_Transportation_Cost_INR,Median_Transportation_Cost_INR,Total_Transportation_Cost_INR,Weighted_Cost_per_Km_INR
+January-September,3750,921,24.560000000000002,74.66666666666667,0.7733333333333333,1.6354853333333332,1.49,1.8307013333333333,-0.19521599999999997,933.6620693333333,835.895,3501232.76,1.2654201433499572
+Q4 (October-December),1250,467,37.36,61.6,1.04,1.766272,1.61,1.8420800000000004,-0.07580799999999999,931.1347120000001,837.04,1163918.3900000001,1.2636633297969995

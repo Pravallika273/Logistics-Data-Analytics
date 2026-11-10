@@ -1,4 +1,4 @@
-# Logistics Analytics Internship Projects — Weeks 1 & 2
+# Logistics Analytics Internship Projects — Weeks 1–3
 
 **YuvaIntern | Logistics Data Analyst Intern**  
 A Python-based logistics analytics portfolio covering strategic planning, KPI development, data-quality assessment, exploratory analysis, and reproducible data preprocessing.
@@ -200,3 +200,97 @@ The Week 2 visual-generation script uses the CSVs created by `week2_data_preproc
 
 **Pravallika Gurubhagavatula**  
 M.Sc. Data Science | Logistics Data Analyst Intern
+
+
+
+---
+
+## Week 3 — Advanced Data Analysis and Visualization in Logistics
+
+### Project Overview
+
+Week 3 focuses on exploratory data analysis and visualization of a hypothetical logistics operation using Python.
+
+A reproducible synthetic dataset containing 5,000 shipment records and 16 variables was generated to demonstrate logistics performance analysis.
+
+**Important:** The dataset is entirely synthetic. It does not represent actual company shipments or real-world operational measurements.
+
+### Analytical Work Completed
+
+- Generated a reproducible hypothetical logistics dataset using Python.
+- Validated shipment identifiers, missing values, duplicate records and delivery calculations.
+- Calculated descriptive statistics, central tendencies, percentiles and skewness.
+- Reviewed potential outliers using the IQR method.
+- Analysed delivery performance across shipping modes and regions.
+- Examined monthly and quarterly shipment patterns.
+- Analysed relationships between transportation distance, delivery duration and transportation cost.
+- Calculated Pearson and Spearman correlations.
+- Prepared nine visualizations using Python and Matplotlib.
+- Developed operational observations and illustrative management recommendations.
+
+### Key Findings
+
+| Analysis | Finding |
+|---|---|
+| Total shipments | 5,000 |
+| Late shipments | 1,388 (27.76%) |
+| Early shipments | 3,570 (71.40%) |
+| Exactly on schedule | 42 (0.84%) |
+| Highest late rate by service mode | Express — 40.65% |
+| Lowest late rate by service mode | Economy — 18.07% |
+| Highest late rate by region | East — 35.69% |
+| Lowest late rate by region | North — 21.53% |
+| Q4 late-delivery rate | 37.36% |
+| January–September late-delivery rate | 24.56% |
+| Mean transportation cost | INR 933.03 |
+
+These findings describe the simulated dataset and its generation assumptions. They must not be interpreted as evidence of actual logistics performance or causal relationships.
+
+### Week 3 Visualizations
+
+1. Shipment delivery outcomes
+2. Late-delivery rate by shipping mode
+3. Late-delivery rate by region
+4. Monthly shipment volume and late-delivery rate
+5. Actual versus promised delivery time
+6. Shipment distance versus transportation cost
+7. Transportation cost distribution
+8. Spearman correlation heatmap
+9. Delivery-time distribution by shipping mode
+
+### Python Implementation
+
+| Script | Purpose |
+|---|---|
+| `src/week3_generate_dataset.py` | Generates the synthetic logistics dataset |
+| `src/week3_eda_analysis.py` | Performs exploratory data analysis and generates summary tables and visualizations |
+| `src/week3_deep_dive_analysis.py` | Performs detailed service-mode, regional, quarterly and cost-efficiency analysis |
+| `src/week3_create_report.py` | Generates the professional Week 3 report |
+
+### Reproducibility
+
+Run the following scripts from the project root in the specified order:
+
+```bash
+python src/week3_generate_dataset.py
+python src/week3_eda_analysis.py
+python src/week3_deep_dive_analysis.py
+python src/week3_create_report.py
+```
+
+### Week 3 Report
+
+[Download the Week 3 Report](report/Logistics_Data_Analysis_Visualization_Week3_Report.docx)
+
+### Limitations
+
+- The dataset is synthetic and intended for analytical demonstration.
+- Some correlations are influenced by the formulas used to generate the dataset.
+- Correlation does not establish causation.
+- Operational recommendations require validation using real shipment, carrier, route and cost information.
+
+### Internship Progress
+
+- Week 1 — Strategic Planning and Data Exploration
+- Week 2 — Data Collection, Cleaning and Preprocessing
+- Week 3 — Advanced Data Analysis and Visualization
