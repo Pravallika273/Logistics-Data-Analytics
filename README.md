@@ -6,7 +6,7 @@ A three-week Python-based logistics analytics portfolio covering strategic plann
 
 The project combines a publicly available supply-chain dataset for Weeks 1–2 with a separately generated synthetic logistics dataset for Week 3.
 
-[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/) [![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/) [![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557c?logo=matplotlib&logoColor=white)](https://matplotlib.org/) [![Status](https://img.shields.io/badge/Work%20completed-Weeks%201%E2%80%932-success)](#project-contents)
+[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/) [![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/) [![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557c?logo=matplotlib&logoColor=white)](https://matplotlib.org/) [![Status](https://img.shields.io/badge/Work%20completed-Weeks%201%E2%80%933-success)](#internship-progress)
 
 ## Project Overview
 
@@ -129,92 +129,6 @@ For a future predictive model, scaling parameters must be fitted on training dat
 
 ![Week 2 normalized features](outputs/charts/WEEK2_REPORT_04_normalized_features.png)
 
-## Python Scripts
-
-| Script | Purpose |
-|---|---|
-| `src/inspect_dataset.py` | Initial source-dataset inspection |
-| `src/prepare_analysis.py` | Week 1 data preparation and descriptive KPI/chart outputs |
-| `src/kpi_analysis.py` | Week 1 KPI validation |
-| `src/exploratory_analysis.py` | Week 1 comparisons across shipping modes, markets, segments and regions |
-| `src/create_report_charts.py` | Week 1 report visuals |
-| `src/week2_data_preprocessing.py` | Week 2 profiling, cleaning decisions, IQR flags, normalization and output summaries |
-| `src/week2_create_report_visuals.py` | Week 2 presentation-ready charts from verified CSV outputs |
-
-## Repository Structure
-
-```text
-LogisticsAnalytics_Week1/
-├── data/
-│   ├── raw/                 # Raw CSV files are excluded from Git
-│   └── processed/           # Small, privacy-safe evidence tables and summaries
-├── outputs/
-│   └── charts/              # Week 1 and Week 2 visualizations
-├── report/
-│   ├── Logistics_Data_Analytics_Week1_Report.docx
-│   └── Logistics_Data_Collection_Cleaning_Preprocessing_Week2_Report.docx
-├── src/                     # Python analysis and preprocessing scripts
-├── .gitignore
-├── LICENSE
-├── README.md
-└── requirements.txt
-```
-
-## How to Run
-
-Use Windows PowerShell from the repository root.
-
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-pip install -r requirements.txt
-```
-
-Place `DataCoSupplyChainDataset.csv` in `data/raw/`, then run:
-
-```powershell
-python .\src\inspect_dataset.py
-python .\src\prepare_analysis.py
-python .\src\kpi_analysis.py
-python .\src\exploratory_analysis.py
-python .\src\create_report_charts.py
-python .\src\week2_data_preprocessing.py
-python .\src\week2_create_report_visuals.py
-```
-
-The Week 2 visual-generation script uses the CSVs created by `week2_data_preprocessing.py`. Full-size cleaned and normalized CSVs are local outputs and should not be pushed to GitHub.
-
-## Reports
-
-- [Week 1 — Strategic Planning and Data Exploration](report/Logistics_Data_Analytics_Week1_Report.docx)
-- [Week 2 — Data Collection, Cleaning, and Preprocessing](report/Logistics_Data_Collection_Cleaning_Preprocessing_Week2_Report.docx)
-- [Week 3 — Advanced Data Analysis and Visualization](report/Logistics_Data_Analysis_Visualization_Week3_Report.docx)
-
-## Limitations and Next Steps
-
-- This is a descriptive analytics and data-preprocessing project, not a production deployment.
-- IQR flags should be reviewed against transaction/business meaning before any rows are removed or capped.
-- Some cleaning choices are specific to this analysis scope; excluded fields may be useful for other questions.
-- Delivery status and schedule variance are tightly related; avoid leakage when building a model to predict delivery outcomes.
-- Future work can add documented statistical testing, leakage-safe predictive modelling, explainability, and logistics optimization experiments.
-
-## References
-
-1. DataCo SMART Supply Chain for Big Data Analysis, Mendeley Data: https://data.mendeley.com/datasets/8gx2fvg2k6/5
-2. pandas documentation: https://pandas.pydata.org/docs/
-3. Matplotlib documentation: https://matplotlib.org/stable/
-4. scikit-learn MinMaxScaler documentation: https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html
-5. NIST/SEMATECH e-Handbook of Statistical Methods, exploratory data analysis and outlier detection: https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h.htm
-
-## Author
-
-**Pravallika Gurubhagavatula**  
-M.Sc. Data Science | Logistics Data Analyst Intern
-
-
-
----
-
 ## Week 3 — Advanced Data Analysis and Visualization in Logistics
 
 ### Project Overview
@@ -268,29 +182,6 @@ These findings describe the simulated dataset and its generation assumptions. Th
 8. Spearman correlation heatmap
 9. Delivery-time distribution by shipping mode
 
-### Python Implementation
-
-| Script | Purpose |
-|---|---|
-| `src/week3_generate_dataset.py` | Generates the synthetic logistics dataset |
-| `src/week3_eda_analysis.py` | Performs exploratory data analysis and generates summary tables and visualizations |
-| `src/week3_deep_dive_analysis.py` | Performs detailed service-mode, regional, quarterly and cost-efficiency analysis |
-| `src/week3_create_report.py` | Generates the professional Week 3 report |
-
-### Reproducibility
-
-Run the following scripts from the project root in the specified order:
-
-```bash
-python src/week3_generate_dataset.py
-python src/week3_eda_analysis.py
-python src/week3_deep_dive_analysis.py
-python src/week3_create_report.py
-```
-
-### Week 3 Report
-
-[Download the Week 3 Report](report/Logistics_Data_Analysis_Visualization_Week3_Report.docx)
 
 ### Limitations
 
@@ -304,3 +195,104 @@ python src/week3_create_report.py
 - Week 1 — Strategic Planning and Data Exploration
 - Week 2 — Data Collection, Cleaning and Preprocessing
 - Week 3 — Advanced Data Analysis and Visualization
+
+## Python Scripts
+
+| Script | Purpose |
+|---|---|
+| `src/inspect_dataset.py` | Initial source-dataset inspection |
+| `src/prepare_analysis.py` | Week 1 data preparation and descriptive KPI/chart outputs |
+| `src/kpi_analysis.py` | Week 1 KPI validation |
+| `src/exploratory_analysis.py` | Week 1 comparisons across shipping modes, markets, segments and regions |
+| `src/create_report_charts.py` | Week 1 report visuals |
+| `src/week2_data_preprocessing.py` | Week 2 profiling, cleaning decisions, IQR flags, normalization and output summaries |
+| `src/week2_create_report_visuals.py` | Week 2 presentation-ready charts from verified CSV outputs |
+| `src/week3_generate_dataset.py` | Generates a reproducible synthetic logistics shipment dataset |
+| `src/week3_eda_analysis.py` | Performs exploratory analysis, KPI calculations, descriptive statistics, correlation analysis and visualizations |
+| `src/week3_deep_dive_analysis.py` | Performs detailed service-mode, regional, quarterly, seasonal and cost-efficiency analysis |
+| `src/week3_create_report.py` | Generates the professional Week 3 Word report with embedded visualizations |
+
+## Repository Structure
+
+```text
+LogisticsAnalytics_Week1/
+├── data/
+│   ├── raw/                 # Raw CSV files are excluded from Git
+│   └── processed/           # Small, privacy-safe evidence tables and summaries
+├── outputs/
+│   └── charts/              # Week 1–3 visualizations
+├── report/
+│   ├── Logistics_Data_Analytics_Week1_Report.docx
+│   ├── Logistics_Data_Collection_Cleaning_Preprocessing_Week2_Report.docx
+│   └── Logistics_Data_Analysis_Visualization_Week3_Report.docx
+├── src/                     # Python analysis and preprocessing scripts
+├── .gitignore
+├── LICENSE
+├── README.md
+└── requirements.txt
+```
+
+## How to Run
+
+Use Windows PowerShell from the repository root.
+
+```powershell
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+pip install -r requirements.txt
+```
+
+Place `DataCoSupplyChainDataset.csv` in `data/raw/`, then run:
+
+```powershell
+python .\src\inspect_dataset.py
+python .\src\prepare_analysis.py
+python .\src\kpi_analysis.py
+python .\src\exploratory_analysis.py
+python .\src\create_report_charts.py
+python .\src\week2_data_preprocessing.py
+python .\src\week2_create_report_visuals.py
+```
+
+The Week 2 visual-generation script uses the CSVs created by `week2_data_preprocessing.py`. Full-size cleaned and normalized CSVs are local outputs and should not be pushed to GitHub.
+
+### Week 3 — Advanced Data Analysis and Visualization
+
+Week 3 uses a reproducible synthetic logistics dataset and can be
+executed independently of the Week 1 and Week 2 source dataset.
+
+Run the following commands from the repository root, in this order:
+
+```powershell
+python .\src\week3_generate_dataset.py
+python .\src\week3_eda_analysis.py
+python .\src\week3_deep_dive_analysis.py
+python .\src\week3_create_report.py
+```
+
+## Reports
+
+- [Week 1 — Strategic Planning and Data Exploration](report/Logistics_Data_Analytics_Week1_Report.docx)
+- [Week 2 — Data Collection, Cleaning, and Preprocessing](report/Logistics_Data_Collection_Cleaning_Preprocessing_Week2_Report.docx)
+- [Week 3 — Advanced Data Analysis and Visualization](report/Logistics_Data_Analysis_Visualization_Week3_Report.docx)
+
+## Limitations and Next Steps
+
+- This is a descriptive analytics and data-preprocessing project, not a production deployment.
+- IQR flags should be reviewed against transaction/business meaning before any rows are removed or capped.
+- Some cleaning choices are specific to this analysis scope; excluded fields may be useful for other questions.
+- Delivery status and schedule variance are tightly related; avoid leakage when building a model to predict delivery outcomes.
+- Future work can add documented statistical testing, leakage-safe predictive modelling, explainability, and logistics optimization experiments.
+
+## References
+
+1. DataCo SMART Supply Chain for Big Data Analysis, Mendeley Data: https://data.mendeley.com/datasets/8gx2fvg2k6/5
+2. pandas documentation: https://pandas.pydata.org/docs/
+3. Matplotlib documentation: https://matplotlib.org/stable/
+4. scikit-learn MinMaxScaler documentation: https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.MinMaxScaler.html
+5. NIST/SEMATECH e-Handbook of Statistical Methods, exploratory data analysis and outlier detection: https://www.itl.nist.gov/div898/handbook/eda/section3/eda35h.htm
+
+## Author
+
+**Pravallika Gurubhagavatula**  
+M.Sc. Data Science | Logistics Data Analyst Intern
