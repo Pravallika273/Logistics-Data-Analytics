@@ -1,15 +1,24 @@
 # Logistics Analytics Internship Projects — Weeks 1–3
 
-**YuvaIntern | Logistics Data Analyst Intern**  
-A Python-based logistics analytics portfolio covering strategic planning, KPI development, data-quality assessment, exploratory analysis, and reproducible data preprocessing.
+**YuvaIntern | Logistics Data Analyst Intern**
+
+A three-week Python-based logistics analytics portfolio covering strategic planning, KPI development, data-quality assessment, data preprocessing, exploratory analysis, and advanced logistics visualization.
+
+The project combines a publicly available supply-chain dataset for Weeks 1–2 with a separately generated synthetic logistics dataset for Week 3.
 
 [![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python&logoColor=white)](https://www.python.org/) [![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/) [![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557c?logo=matplotlib&logoColor=white)](https://matplotlib.org/) [![Status](https://img.shields.io/badge/Work%20completed-Weeks%201%E2%80%932-success)](#project-contents)
 
 ## Project Overview
 
-This repository documents two completed stages of a logistics data analytics internship project using the publicly available **DataCo SMART Supply Chain for Big Data Analysis** dataset. Week 1 focuses on strategic planning and exploratory analysis. Week 2 builds a reproducible preprocessing workflow that profiles missing data, documents cleaning decisions, flags potential outliers, normalizes numerical features, and validates the resulting files.
+This repository documents three stages of a logistics data analytics internship project.
 
-The analyses are descriptive and preprocessing-focused. They do **not** claim that a production predictive model or route-optimization system has been deployed.
+- **Week 1:** Strategic planning, KPI development, and exploratory analysis using the publicly available DataCo SMART Supply Chain dataset.
+- **Week 2:** Data-quality assessment, documented cleaning decisions, outlier review, and numerical normalization using the DataCo dataset.
+- **Week 3:** Advanced exploratory analysis and visualization using a reproducible synthetic dataset containing 5,000 hypothetical shipments and 16 variables.
+
+The Week 1 and Week 2 analyses use the original DataCo dataset. Week 3 uses a separate synthetic dataset generated specifically for analytical demonstration. Its findings do not represent actual company operations.
+
+The project focuses on descriptive analytics, data preparation, and visualization. It does not claim that a production predictive model or route-optimization system has been deployed.
 
 ## Dataset and Source
 
@@ -177,8 +186,9 @@ The Week 2 visual-generation script uses the CSVs created by `week2_data_preproc
 
 ## Reports
 
-- [Week 1 report](report/Logistics_Data_Analytics_Week1_Report.docx)
-- [Week 2 report](report/Logistics_Data_Collection_Cleaning_Preprocessing_Week2_Report.docx)
+- [Week 1 — Strategic Planning and Data Exploration](report/Logistics_Data_Analytics_Week1_Report.docx)
+- [Week 2 — Data Collection, Cleaning, and Preprocessing](report/Logistics_Data_Collection_Cleaning_Preprocessing_Week2_Report.docx)
+- [Week 3 — Advanced Data Analysis and Visualization](report/Logistics_Data_Analysis_Visualization_Week3_Report.docx)
 
 ## Limitations and Next Steps
 
